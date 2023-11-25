@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --background: #292e77;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  color: white;
+}
+
+body {
+  background-color: var(--background);
+}
+
+
+.container {
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+
+.container input,
+.container label {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
+
+
+.container input {
+  width: 20%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  background-color: var(--background);
+  border: 2px white solid;
+}
+
+.container input:read-write {
+  background-color: #292e77;
+}
+
+.container button {
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #6ffafc;
+  border: 1px solid black;
+  box-shadow: 5px 5px 3px black;
+  margin: 15px;
+  transition: 0.3s;
+  color: black;
+  font-weight: bold;
+}
+
+.container button:hover {
+  font-size: 15px;
+}
+
+.imc img {
+  width: 20%;
+  border-radius: 10px;
+}
+
+.resultadoMsg {
+  background-color: rgb(131, 255, 152);
+  padding: 10px;
+  margin: 0 40%;
+  border-radius: 5px;
+  color: black;
+  text-align: start;
+}
+
+.bad {
+  background-color: rgb(255, 131, 131);
+  padding: 10px;
+  margin: 0 40%;
+  border-radius: 5px;
+  color: black;
+  text-align: start;
+}
